@@ -1,0 +1,89 @@
+<?xml version="1.0"?>
+
+<!DOCTYPE overlay [
+<!ENTITY % jsoptionsDTD SYSTEM "chrome://jsoptions/locale/jsoptions.dtd">
+%jsoptionsDTD;
+]>
+
+<overlay id="JSOptionsPaneOverlay"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+  <prefpane id="paneJSOptions">
+    <preferences>
+      <preference id="javascript.enabled"                          name="javascript.enabled"                          type="bool"/>
+
+      <preference id="dom.disable_window_open_feature.status"      name="dom.disable_window_open_feature.status"      type="bool"/>
+      <preference id="dom.disable_window_open_feature.menubar"     name="dom.disable_window_open_feature.menubar"     type="bool"/>
+      <preference id="dom.disable_window_open_feature.toolbar"     name="dom.disable_window_open_feature.toolbar"     type="bool"/>
+      <preference id="dom.disable_window_open_feature.location"    name="dom.disable_window_open_feature.location"    type="bool"/>
+      <preference id="dom.disable_window_open_feature.scrollbars"  name="dom.disable_window_open_feature.scrollbars"  type="bool"/>
+
+      <preference id="dom.disable_window_move_resize"              name="dom.disable_window_move_resize"              type="bool"/>
+      <preference id="dom.disable_window_flip"                     name="dom.disable_window_flip"                     type="bool"/>
+      <preference id="dom.disable_window_status_change"            name="dom.disable_window_status_change"            type="bool"/>
+      <preference id="dom.event.contextmenu.enabled"               name="dom.event.contextmenu.enabled"               type="bool"/>
+      <preference id="dom.disable_image_src_set"                   name="dom.disable_image_src_set"                   type="bool"/>
+      <preference id="dom.allow_scripts_to_close_windows"          name="dom.allow_scripts_to_close_windows"          type="bool"/>
+    </preferences>
+    
+    <script type="application/x-javascript" src="chrome://jsoptions/content/jsoptions.js"/>
+
+    <checkbox id="enableJScript" label="&enableJScript.label;"
+                    onpreferenceread="return gJSOptionsPane.readJavascriptEnabled();"
+                    preference="javascript.enabled"/>
+
+    <groupbox id="groupWindowOpenSettings" align="start">
+      <caption label="&groupWindowOpenSettings.title;"/>
+      
+      <checkbox id="windowOpenMenubar" label="&windowOpenMenubar.label;"
+                      onpreferencewrite="return gJSOptionsPane.writeInvertedPref('windowOpenMenubar');"
+                      onpreferenceread="return gJSOptionsPane.readInvertedPref('windowOpenMenubar');"
+                      preference="dom.disable_window_open_feature.menubar"/>
+      <checkbox id="windowOpenToolbar" label="&windowOpenToolbar.label;"
+                      onpreferencewrite="return gJSOptionsPane.writeInvertedPref('windowOpenToolbar');"
+                      onpreferenceread="return gJSOptionsPane.readInvertedPref('windowOpenToolbar');"
+                      preference="dom.disable_window_open_feature.toolbar"/>
+      <checkbox id="windowOpenLocation" label="&windowOpenLocation.label;"
+                      onpreferencewrite="return gJSOptionsPane.writeInvertedPref('windowOpenLocation');"
+                      onpreferenceread="return gJSOptionsPane.readInvertedPref('windowOpenLocation');"
+                      preference="dom.disable_window_open_feature.location"/>
+<!--      <checkbox id="windowOpenScrollbars" label="&windowOpenScrollbars.label;"
+                      onpreferencewrite="return gJSOptionsPane.writeInvertedPref('windowOpenScrollbars');"
+                      onpreferenceread="return gJSOptionsPane.readInvertedPref('windowOpenScrollbars');"
+                      preference="dom.disable_window_open_feature.scrollbars"/> -->
+      <checkbox id="windowOpenStatus" label="&windowOpenStatus.label;"
+                      onpreferencewrite="return gJSOptionsPane.writeInvertedPref('windowOpenStatus');"
+                      onpreferenceread="return gJSOptionsPane.readInvertedPref('windowOpenStatus');"
+                      preference="dom.disable_window_open_feature.status"/>
+
+    </groupbox>
+
+    <groupbox id="groupJavascript" align="start">
+      <caption label="&groupJavascript.title;"/>
+      
+      <checkbox id="disableMoveResize" label="&disableMoveResize.label;"
+                      onpreferencewrite="return gJSOptionsPane.writeInvertedPref('disableMoveResize');"
+                      onpreferenceread="return gJSOptionsPane.readInvertedPref('disableMoveResize');"
+                      preference="dom.disable_window_move_resize"/>
+      <checkbox id="disableFlip" label="&disableFlip.label;"
+                      onpreferencewrite="return gJSOptionsPane.writeInvertedPref('disableFlip');"
+                      onpreferenceread="return gJSOptionsPane.readInvertedPref('disableFlip');"
+                      preference="dom.disable_window_flip"/>
+      <checkbox id="disableContextMenu" label="&disableContextMenu.label;"
+                      preference="dom.event.contextmenu.enabled"/>
+      <checkbox id="disableStatusChange" label="&disableStatusChange.label;"
+                      onpreferencewrite="return gJSOptionsPane.writeInvertedPref('disableStatusChange');"
+                      onpreferenceread="return gJSOptionsPane.readInvertedPref('disableStatusChange');"
+                      preference="dom.disable_window_status_change"/>
+      <checkbox id="disableChangeImage" label="&disableChangeImage.label;"
+                      onpreferencewrite="return gJSOptionsPane.writeInvertedPref('disableChangeImage');"
+                      onpreferenceread="return gJSOptionsPane.readInvertedPref('disableChangeImage');"
+                      preference="dom.disable_image_src_set"/>
+      <checkbox id="enableWindowClose" label="&enableWindowClose.label;"
+                      preference="dom.allow_scripts_to_close_windows"/>
+
+    </groupbox>
+
+  </prefpane>
+
+</overlay>

@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet href="chrome://jsoptions/skin/jsoptions.css"?>
+
+<!DOCTYPE overlay [
+<!ENTITY % jsoptionsDTD SYSTEM "chrome://jsoptions/locale/jsoptions.dtd">
+%jsoptionsDTD;
+]>
+
+<overlay id="JSOptionsPaneOverlay"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+<script type="application/x-javascript" src="chrome://jsoptions/content/jssetup.js"/>
+
+<prefwindow id="BrowserPreferences" onload="setupJS(null);">
+
+    <prefpane id="paneJSOptions" label="&paneJSOptions.title;" insertafter="paneContent"
+              src="chrome://jsoptions/content/jsoptions.xul"/>
+
+</prefwindow>
+
+</overlay>

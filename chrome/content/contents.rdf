@@ -1,0 +1,26 @@
+<?xml version="1.0"?> 
+<RDF:RDF xmlns:RDF="http://www.w3.org/1999/02/22-rdf-syntax-ns#" 
+            xmlns:chrome="http://www.mozilla.org/rdf/chrome#"> 
+
+
+  <!-- list all the packages being supplied by this jar -->
+  <RDF:Seq about="urn:mozilla:package:root"> 
+    <RDF:li resource="urn:mozilla:package:jsoptions"/> 
+  </RDF:Seq> 
+
+  <RDF:Description about="urn:mozilla:package:jsoptions" 
+        chrome:displayName="Javascript Options" 
+        chrome:author="Dave Townsend" 
+        chrome:name="jsoptions"
+        chrome:extension="true"> 
+  </RDF:Description>
+
+  <RDF:Seq about="urn:mozilla:overlays">
+    <RDF:li resource="chrome://browser/content/preferences/preferences.xul"/>
+  </RDF:Seq>
+
+  <RDF:Seq about="chrome://browser/content/preferences/preferences.xul">
+    <RDF:li>chrome://jsoptions/content/prefoverlay.xul</RDF:li>
+  </RDF:Seq>
+
+</RDF:RDF>

@@ -1,0 +1,17 @@
+#BrowserPreferences radio[pane=paneJSOptions] {
+  	list-style-image: url("chrome://jsoptions/skin/jsoptions.png");
+	-moz-image-region: rect(0px, 32px, 32px, 0px);
+}
+
+#BrowserPreferences radio[pane=paneJSOptions]:hover, #BrowserPreferences radio[pane=paneJSOptions][selected="true"]  {
+  	list-style-image: url("chrome://jsoptions/skin/jsoptions.png");
+	-moz-image-region: rect(32px, 32px, 64px, 0px);
+}
+
+checkbox#enableJavaScript {
+	display: none;
+}
+
+checkbox#disableAnnoyances {
+	display: none;
+}
