@@ -1,5 +1,14 @@
 <?xml version="1.0"?>
 
+<!--
+$HeadURL$
+$LastChangedBy$
+$Date$
+$Revision$
+
+The JavaScript options pane.
+-->
+
 <!DOCTYPE overlay [
 <!ENTITY % jsoptionsDTD SYSTEM "chrome://jsoptions/locale/jsoptions.dtd">
 %jsoptionsDTD;

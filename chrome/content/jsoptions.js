@@ -1,3 +1,12 @@
+/*
+ * $HeadURL$
+ * $LastChangedBy$
+ * $Date$
+ * $Revision$
+ *
+ * Methods called from the JavaScript options pane.
+ */
+ 
 var gJSOptionsPane = {
 
   setGroup: function(groupbox, setting)
