@@ -1,10 +1,15 @@
-<!ENTITY panePopups.description		"Customize when popups can be launched through scripting:">
+<!ENTITY panePopups.description		"Customize when popups can be launched through scripting. Generally
+these settings are fine as they are and should be left well alone.">
 
-<!ENTITY eventsGroup.caption		"Events that can trigger popups">
+<!ENTITY showLoadPopups.label		"Allow popups during page load">
+
+<!ENTITY eventsGroup.description	"The following events may open popups. Generally
+these settings are fine as they are and should be left well alone.">
 
 <!ENTITY changeEvent.label		"Change">
 <!ENTITY clickEvent.label		"Click">
 <!ENTITY dblclickEvent.label		"Double click">
+<!ENTITY mousedownEvent.label		"Mouse button press">
 <!ENTITY mouseupEvent.label		"Mouse button release">
 <!ENTITY resetEvent.label		"Form reset">
 <!ENTITY submitEvent.label		"Form submit">

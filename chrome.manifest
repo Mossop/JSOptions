@@ -1,0 +1,4 @@
+content	jsoptions	jar:chrome/jsoptions.jar!/content/
+skin	jsoptions	classic/1.0	jar:chrome/jsoptions.jar!/skin/
+locale	jsoptions	en-US	jar:chrome/jsoptions.jar!/locale/en-US/
+overlay	chrome://browser/content/preferences/preferences.xul	chrome://jsoptions/content/prefoverlay.xul

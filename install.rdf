@@ -26,14 +26,5 @@
     <em:iconURL>chrome://jsoptions/skin/icon.png</em:iconURL>
     <em:optionsURL>chrome://jsoptions/content/jsoptions.xul</em:optionsURL>
     
-    <!-- Packages, Skins and Locales that this extension registers -->
-    <em:file>
-      <Description about="urn:mozilla:extension:file:jsoptions.jar">
-        <em:package>content/</em:package>
-        <em:skin>skin/</em:skin>
-        <em:locale>locale/en-US/</em:locale>
-      </Description>
-    </em:file>
-
   </Description>      
 </RDF>

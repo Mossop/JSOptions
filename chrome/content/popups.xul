@@ -24,19 +24,23 @@ The JavaScript popups pane.
       <preference id="dom.disable_open_click_delay"   name="dom.disable_open_click_delay"
           type="bool"/>
       <preference id="dom.disable_open_during_load"   name="dom.disable_open_during_load"
-          type="bool"/>
+          type="bool" inverted="true"/>
       <preference id="dom.popup_allowed_events"       name="dom.popup_allowed_events"
           type="string"/>
     </preferences>
 
-    <description>&panePopups.description;</description>
+    <!--<vbox align="start">
+      
+      <description>&panePopups.description;</description>
     
-    <vbox align="start">
-    </vbox>
+      <checkbox id="showLoadPopups" label="&showLoadPopups.label;"
+          preference="dom.disable_open_during_load"/>
+          
+    </vbox>-->
     
-    <groupbox align="start" id="eventsGroup">
+    <vbox align="start" id="eventsGroup">
 
-      <caption>&eventsGroup.caption;</caption>
+      <description>&eventsGroup.description;</description>
       
       <checkbox id="changeEvent" label="&changeEvent.label;"
         preference="dom.popup_allowed_events"
@@ -51,6 +55,11 @@ The JavaScript popups pane.
       <checkbox id="dblclickEvent" label="&dblclickEvent.label;"
         preference="dom.popup_allowed_events"
         onpreferenceread="return gPanePopups.readEvent('dblclick');"
+        onpreferencewrite="return gPanePopups.writeEvents();"/>
+
+      <checkbox id="mousedownEvent" label="&mousedownEvent.label;"
+        preference="dom.popup_allowed_events"
+        onpreferenceread="return gPanePopups.readEvent('mousedown');"
         onpreferencewrite="return gPanePopups.writeEvents();"/>
 
       <checkbox id="mouseupEvent" label="&mouseupEvent.label;"
@@ -68,7 +77,7 @@ The JavaScript popups pane.
         onpreferenceread="return gPanePopups.readEvent('submit');"
         onpreferencewrite="return gPanePopups.writeEvents();"/>
 
-    </groupbox>
+    </vbox>
     
   </prefpane>
 
