@@ -1,18 +1,5 @@
 var gJSOptionsPane = {
 
-  writeInvertedPref: function (item)
-  {
-    var checkbox = document.getElementById(item);
-    return !checkbox.checked;
-  },
-  
-  readInvertedPref: function (item)
-  {
-    var checkbox = document.getElementById(item);
-    var preference = document.getElementById(checkbox.getAttribute('preference'));
-    return !preference.value;
-  },
-  
   setGroup: function(groupbox, setting)
   {
     var items = groupbox.getElementsByTagName('checkbox');
