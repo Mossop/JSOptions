@@ -21,10 +21,10 @@ The JavaScript popups pane.
 
   <prefpane id="panePopups">
     <preferences>
-      <preference id="dom.disable_open_click_delay"   name="dom.disable_open_click_delay"
+      <!--<preference id="dom.disable_open_click_delay"   name="dom.disable_open_click_delay"
           type="bool"/>
       <preference id="dom.disable_open_during_load"   name="dom.disable_open_during_load"
-          type="bool" inverted="true"/>
+          type="bool" inverted="true"/>-->
       <preference id="dom.popup_allowed_events"       name="dom.popup_allowed_events"
           type="string"/>
     </preferences>

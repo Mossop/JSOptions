@@ -31,16 +31,16 @@ The JavaScript windows features pane.
           inverted="true" type="bool"/>
       <preference id="dom.disable_window_open_feature.scrollbars"  name="dom.disable_window_open_feature.scrollbars"
           inverted="true" type="bool"/>
-      <preference id="dom.disable_window_open_feature.close"       name="dom.disable_window_open_feature.close"
-          inverted="true" type="bool"/>
+      <!--<preference id="dom.disable_window_open_feature.close"       name="dom.disable_window_open_feature.close"
+          inverted="true" type="bool"/>-->
       <preference id="dom.disable_window_open_feature.directories" name="dom.disable_window_open_feature.directories"
           inverted="true" type="bool"/>
-      <preference id="dom.disable_window_open_feature.minimizable" name="dom.disable_window_open_feature.minimizable"
-          inverted="true" type="bool"/>
+      <!--<preference id="dom.disable_window_open_feature.minimizable" name="dom.disable_window_open_feature.minimizable"
+          inverted="true" type="bool"/>-->
       <preference id="dom.disable_window_open_feature.resizable"   name="dom.disable_window_open_feature.resizable"
           inverted="true" type="bool"/>
-      <preference id="dom.disable_window_open_feature.titlebar"    name="dom.disable_window_open_feature.titlebar"
-          inverted="true" type="bool"/>
+      <!--<preference id="dom.disable_window_open_feature.titlebar"    name="dom.disable_window_open_feature.titlebar"
+          inverted="true" type="bool"/>-->
       <preference id="dom.disable_window_open_feature.personalbar" name="dom.disable_window_open_feature.personalbar"
           inverted="true" type="bool"/>
     </preferences>

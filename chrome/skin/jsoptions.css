@@ -12,34 +12,24 @@
 	-moz-image-region: rect(0px, 32px, 32px, 0px);
 }
 
-#JavascriptOptions radio[pane=paneFeatures]:hover, #JavascriptOptions radio[pane=paneFeatures][selected="true"]  {
+/*#JavascriptOptions radio[pane=paneFeatures]:hover, #JavascriptOptions radio[pane=paneFeatures][selected="true"]  {
   	list-style-image: url("chrome://jsoptions/skin/jsoptions.png");
 	-moz-image-region: rect(32px, 32px, 64px, 0px);
-}
+}*/
 
 #JavascriptOptions radio[pane=paneWindows] {
   	list-style-image: url("chrome://jsoptions/skin/jsoptions.png");
-	-moz-image-region: rect(0px, 32px, 32px, 0px);
-}
-
-#JavascriptOptions radio[pane=paneWindows]:hover, #JavascriptOptions radio[pane=paneWindows][selected="true"]  {
-  	list-style-image: url("chrome://jsoptions/skin/jsoptions.png");
-	-moz-image-region: rect(32px, 32px, 64px, 0px);
+	-moz-image-region: rect(0px, 64px, 32px, 32px);
 }
 
 #JavascriptOptions radio[pane=panePopups] {
   	list-style-image: url("chrome://jsoptions/skin/jsoptions.png");
-	-moz-image-region: rect(0px, 32px, 32px, 0px);
-}
-
-#JavascriptOptions radio[pane=panePopups]:hover, #JavascriptOptions radio[pane=panePopups][selected="true"]  {
-  	list-style-image: url("chrome://jsoptions/skin/jsoptions.png");
-	-moz-image-region: rect(32px, 32px, 64px, 0px);
+	-moz-image-region: rect(0px, 96px, 32px, 64px);
 }
 
 #JavascriptOptions {
 	padding: 0;
-	height: 35em;
+	height: 30em;
 	width: 32em;
 }
 
