@@ -4,7 +4,7 @@
  * $Date$
  * $Revision$
  *
- * Styling removes the JavaScript options from the content pane and sets up the icon on the JavaScript pane.
+ * Styling sets up the icon on the JavaScript pane.
  */
 
 #JavascriptOptions radio[pane=paneFeatures] {

@@ -24,6 +24,7 @@
     <em:homepageURL>http://www.blueprintit.co.uk/~dave/web/firefox/jsoptions/index.html</em:homepageURL>
     <em:updateURL>http://www.blueprintit.co.uk/~dave/web/firefox/jsoptions/jsoptions.rdf</em:updateURL>
     <em:iconURL>chrome://jsoptions/skin/icon.png</em:iconURL>
+    <em:optionsURL>chrome://jsoptions/content/jsoptions.xul</em:optionsURL>
     
     <!-- Packages, Skins and Locales that this extension registers -->
     <em:file>

@@ -5,9 +5,9 @@
 <!ENTITY windowOpenLocation.label	"Hide the location bar">
 <!ENTITY windowOpenScrollbars.label	"Hide the scrollbars">
 <!ENTITY windowOpenStatus.label		"Hide the status bar">
-<!ENTITY windowOpenClose.label		"Close">
+<!ENTITY windowOpenClose.label		"Hide the close button">
 <!ENTITY windowOpenDirectories.label	"Hide the bookmarks toolbar">
-<!ENTITY windowOpenMinimizable.label	"Minimizable">
+<!ENTITY windowOpenMinimizable.label	"Hide the minimize button">
 <!ENTITY windowOpenResizable.label	"Make the window unresizable">
 <!ENTITY windowOpenTitlebar.label	"Hide the titlebar">
 <!ENTITY windowOpenPersonalbar.label	"Hide the bookmarks toolbar">

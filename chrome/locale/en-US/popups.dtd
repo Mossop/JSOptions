@@ -1,0 +1,10 @@
+<!ENTITY panePopups.description		"Customize when popups can be launched through scripting:">
+
+<!ENTITY eventsGroup.caption		"Events that can trigger popups">
+
+<!ENTITY changeEvent.label		"Change">
+<!ENTITY clickEvent.label		"Click">
+<!ENTITY dblclickEvent.label		"Double click">
+<!ENTITY mouseupEvent.label		"Mouse button release">
+<!ENTITY resetEvent.label		"Form reset">
+<!ENTITY submitEvent.label		"Form submit">

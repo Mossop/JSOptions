@@ -17,12 +17,58 @@ The JavaScript popups pane.
 <overlay id="PopupsPaneOverlay"
          xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
 
+  <script type="application/x-javascript" src="chrome://jsoptions/content/popups.js"/>
+
   <prefpane id="panePopups">
+    <preferences>
+      <preference id="dom.disable_open_click_delay"   name="dom.disable_open_click_delay"
+          type="bool"/>
+      <preference id="dom.disable_open_during_load"   name="dom.disable_open_during_load"
+          type="bool"/>
+      <preference id="dom.popup_allowed_events"       name="dom.popup_allowed_events"
+          type="string"/>
+    </preferences>
 
     <description>&panePopups.description;</description>
     
     <vbox align="start">
     </vbox>
+    
+    <groupbox align="start" id="eventsGroup">
+
+      <caption>&eventsGroup.caption;</caption>
+      
+      <checkbox id="changeEvent" label="&changeEvent.label;"
+        preference="dom.popup_allowed_events"
+        onpreferenceread="return gPanePopups.readEvent('change');"
+        onpreferencewrite="return gPanePopups.writeEvents();"/>
+
+      <checkbox id="clickEvent" label="&clickEvent.label;"
+        preference="dom.popup_allowed_events"
+        onpreferenceread="return gPanePopups.readEvent('click');"
+        onpreferencewrite="return gPanePopups.writeEvents();"/>
+
+      <checkbox id="dblclickEvent" label="&dblclickEvent.label;"
+        preference="dom.popup_allowed_events"
+        onpreferenceread="return gPanePopups.readEvent('dblclick');"
+        onpreferencewrite="return gPanePopups.writeEvents();"/>
+
+      <checkbox id="mouseupEvent" label="&mouseupEvent.label;"
+        preference="dom.popup_allowed_events"
+        onpreferenceread="return gPanePopups.readEvent('mouseup');"
+        onpreferencewrite="return gPanePopups.writeEvents();"/>
+
+      <checkbox id="resetEvent" label="&resetEvent.label;"
+        preference="dom.popup_allowed_events"
+        onpreferenceread="return gPanePopups.readEvent('reset');"
+        onpreferencewrite="return gPanePopups.writeEvents();"/>
+
+      <checkbox id="submitEvent" label="&submitEvent.label;"
+        preference="dom.popup_allowed_events"
+        onpreferenceread="return gPanePopups.readEvent('submit');"
+        onpreferencewrite="return gPanePopups.writeEvents();"/>
+
+    </groupbox>
     
   </prefpane>
 

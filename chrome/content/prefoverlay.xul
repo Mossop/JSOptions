@@ -9,15 +9,16 @@ $Revision$
 The overlay to the preferences window to add the JavaScript options pane.
 -->
 
-<?xml-stylesheet href="chrome://jsoptions/skin/jsoptions.css"?>
+<?xml-stylesheet href="chrome://jsoptions/skin/overlay.css"?>
 
 <overlay id="JSOptionsPaneOverlay"
          xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
 
+<script type="application/x-javascript" src="chrome://jsoptions/content/jssetup.js"/>
+
 <prefwindow id="BrowserPreferences">
 
-    <prefpane id="paneJS" label="JavaScript" insertafter="paneContent"
-              src="chrome://jsoptions/content/pane.xul"/>
+    <prefpane id="paneContent"/>
 
 </prefwindow>
 

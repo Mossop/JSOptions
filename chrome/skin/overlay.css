@@ -1,0 +1,12 @@
+/*
+ * $HeadURL$
+ * $LastChangedBy$
+ * $Date$
+ * $Revision$
+ *
+ * Styling removes the JavaScript options from the content pane.
+ */
+
+checkbox#disableAnnoyances {
+	display: none;
+}

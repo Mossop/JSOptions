@@ -8,7 +8,7 @@
 %jsoptionsDTD;
 ]>
 
-<prefwindow type="child"
+<prefwindow type="child" persist="lastSelected"
             id="JavascriptOptions"
             title="&JavascriptOptions.title;"
             xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">

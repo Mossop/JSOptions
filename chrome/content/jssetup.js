@@ -4,17 +4,54 @@
  * $Date$
  * $Revision$
  *
- * A hack to change the size of the options dialog. Should only do something if the height is already set,
- * which only happens on windows machines.
  */
- 
-function setupJS(event)
+
+var JSOptions = 
 {
-  var prefWindow = document.getElementById('BrowserPreferences');
-  if ((prefWindow.style.height)&&(prefWindow.style.height=="36em"))
+  showJSOptions: function()
   {
-    prefWindow.style.height="38em";
+    openDialog("chrome://jsoptions/content/jsoptions.xul", "JavaScript Options", "chrome,titlebar,centerscreen,modal");
+    return false;
+  },
+
+  toggleButton: function()
+  {
+    var button = document.getElementById("popupAdvancedJavascript");
+    var checkbox = document.getElementById("enableJavaScript");
+    button.disabled=!checkbox.checked;
+    return false;
+  },
+  
+  setupJS: function()
+  {
+    var checkbox = document.getElementById("enableJavaScript");
+    checkbox.addEventListener("CheckboxStateChange",JSOptions.toggleButton,false);
+    var row = checkbox.parentNode.parentNode;
+    var vbox = document.createElement("vbox");
+    row.appendChild(vbox);
+    var button = document.createElement("button");
+    button.setAttribute("label","Advanced...");
+    button.setAttribute("id","popupAdvancedJavascript");
+    //button.addEventListener("command",JSOptions.showJSOptions,false);
+    button.setAttribute("oncommand","JSOptions.showJSOptions();");
+    vbox.appendChild(button);
+    JSOptions.toggleButton();
+    return false;
+  },
+
+  registerEventListener: function()
+  {
+    var content = document.getElementById("paneContent");
+    if (content.loaded)
+    {
+      JSOptions.setupJS();
+    }
+    else
+    {
+      content.addEventListener('paneload',JSOptions.setupJS,false);
+    }
+    return false;
   }
 };
 
-//document.addEventListener('load',setupJS,false);
+window.addEventListener("load",JSOptions.registerEventListener,false);

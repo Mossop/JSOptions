@@ -17,6 +17,8 @@ The JavaScript windows features pane.
 <overlay id="WindowsPaneOverlay"
          xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
 
+  <script type="application/x-javascript" src="chrome://jsoptions/content/windows.js"/>
+
   <prefpane id="paneWindows">
     <preferences>
       <preference id="dom.disable_window_open_feature.status"      name="dom.disable_window_open_feature.status"
@@ -55,18 +57,19 @@ The JavaScript windows features pane.
                     preference="dom.disable_window_open_feature.location"/>
       <checkbox id="windowOpenScrollbars" label="&windowOpenScrollbars.label;"
                     preference="dom.disable_window_open_feature.scrollbars"/>
-      <checkbox id="windowOpenClose" label="&windowOpenClose.label;"
-                    preference="dom.disable_window_open_feature.close"/>
+      <!-- <checkbox id="windowOpenClose" label="&windowOpenClose.label;"
+                    preference="dom.disable_window_open_feature.close"/> -->
       <checkbox id="windowOpenDirectories" label="&windowOpenDirectories.label;"
-                    preference="dom.disable_window_open_feature.directories"/>
-      <checkbox id="windowOpenMinimizable" label="&windowOpenMinimizable.label;"
-                    preference="dom.disable_window_open_feature.minimizable"/>
+                    preference="dom.disable_window_open_feature.directories"
+                    onpreferencewrite="gPaneWindows.writeDirectories();"/>
+      <!-- <checkbox id="windowOpenMinimizable" label="&windowOpenMinimizable.label;"
+                    preference="dom.disable_window_open_feature.minimizable"/> -->
       <checkbox id="windowOpenResizable" label="&windowOpenResizable.label;"
                     preference="dom.disable_window_open_feature.resizable"/>
-      <checkbox id="windowOpenTitlebar" label="&windowOpenTitlebar.label;"
-                    preference="dom.disable_window_open_feature.titlebar"/>
-      <checkbox id="windowOpenPersonalbar" label="&windowOpenPersonalbar.label;"
-                    preference="dom.disable_window_open_feature.personalbar"/>
+      <!-- <checkbox id="windowOpenTitlebar" label="&windowOpenTitlebar.label;"
+                    preference="dom.disable_window_open_feature.titlebar"/> -->
+      <!-- <checkbox id="windowOpenPersonalbar" label="&windowOpenPersonalbar.label;"
+                    preference="dom.disable_window_open_feature.personalbar"/> -->
       <checkbox id="windowOpenStatus" label="&windowOpenStatus.label;"
                     preference="dom.disable_window_open_feature.status"/>
 
