@@ -10,7 +10,7 @@ var JSOptions =
 {
   showJSOptions: function()
   {
-    openDialog("chrome://jsoptions/content/jsoptions.xul", "JavaScript Options", "chrome,titlebar,centerscreen,modal");
+    openDialog("chrome://jsoptions/content/jsoptions.xul", "JavaScript Options", "chrome,titlebar,toolbar,centerscreen,modal");
     return false;
   },
 
@@ -24,13 +24,16 @@ var JSOptions =
   
   setupJS: function()
   {
+    var strBundle=document.getElementById("jsoptionslocale");
+
     var checkbox = document.getElementById("enableJavaScript");
     checkbox.addEventListener("CheckboxStateChange",JSOptions.toggleButton,false);
     var row = checkbox.parentNode.parentNode;
     var vbox = document.createElement("vbox");
     row.appendChild(vbox);
     var button = document.createElement("button");
-    button.setAttribute("label","Advanced...");
+    button.id="advancedJSOptions";
+    button.setAttribute("label",strBundle.getString("advancedJSOptions.label"));
     button.setAttribute("id","popupAdvancedJavascript");
     vbox.appendChild(button);
     button.addEventListener("command",JSOptions.showJSOptions,false);

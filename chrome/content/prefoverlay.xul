@@ -18,7 +18,11 @@ The overlay to the preferences window to add the JavaScript options pane.
 
 <prefwindow id="BrowserPreferences">
 
-    <prefpane id="paneContent"/>
+    <prefpane id="paneContent">
+
+      <stringbundle id="jsoptionslocale" src="chrome://jsoptions/locale/jsoptions.properties"/>
+
+    </prefpane>
 
 </prefwindow>
 
