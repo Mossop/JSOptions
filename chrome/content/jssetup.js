@@ -32,9 +32,8 @@ var JSOptions =
     var button = document.createElement("button");
     button.setAttribute("label","Advanced...");
     button.setAttribute("id","popupAdvancedJavascript");
-    //button.addEventListener("command",JSOptions.showJSOptions,false);
-    button.setAttribute("oncommand","JSOptions.showJSOptions();");
     vbox.appendChild(button);
+    button.addEventListener("command",JSOptions.showJSOptions,false);
     JSOptions.toggleButton();
     return false;
   },
