@@ -1,0 +1,56 @@
+<?xml version="1.0"?>
+
+<!--
+$HeadURL$
+$LastChangedBy$
+$Date$
+$Revision$
+
+The JavaScript features pane.
+-->
+
+<!DOCTYPE overlay [
+<!ENTITY % jsoptionsDTD SYSTEM "chrome://jsoptions/locale/jsoptions.dtd">
+%jsoptionsDTD;
+]>
+
+<overlay id="FeaturesPaneOverlay"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+  <prefpane id="paneFeatures">
+    <preferences>
+      <preference id="dom.disable_window_move_resize"              name="dom.disable_window_move_resize"
+          inverted="true" type="bool"/>
+      <preference id="dom.disable_window_flip"                     name="dom.disable_window_flip"
+          inverted="true" type="bool"/>
+      <preference id="dom.disable_window_status_change"            name="dom.disable_window_status_change"
+          inverted="true" type="bool"/>
+      <preference id="dom.event.contextmenu.enabled"               name="dom.event.contextmenu.enabled"
+          type="bool"/>
+      <preference id="dom.disable_image_src_set"                   name="dom.disable_image_src_set"
+          inverted="true" type="bool"/>
+      <preference id="dom.allow_scripts_to_close_windows"          name="dom.allow_scripts_to_close_windows"
+          type="bool"/>
+    </preferences>
+    
+    <groupbox id="groupJavascript" align="start">
+      <caption label="&groupJavascript.title;"/>
+      
+      <checkbox id="disableMoveResize" label="&disableMoveResize.label;"
+                      preference="dom.disable_window_move_resize"/>
+      <checkbox id="disableFlip" label="&disableFlip.label;"
+                      preference="dom.disable_window_flip"/>
+      <checkbox id="disableContextMenu" label="&disableContextMenu.label;"
+                      preference="dom.event.contextmenu.enabled"/>
+      <checkbox id="disableStatusChange" label="&disableStatusChange.label;"
+                      preference="dom.disable_window_status_change"/>
+      <checkbox id="disableChangeImage" label="&disableChangeImage.label;"
+                      preference="dom.disable_image_src_set"/>
+      <checkbox id="enableWindowClose" label="&enableWindowClose.label;"
+                      preference="dom.allow_scripts_to_close_windows"/>
+
+    </groupbox>
+
+  </prefpane>
+
+</overlay>

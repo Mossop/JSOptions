@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+
+<!--
+$HeadURL$
+$LastChangedBy$
+$Date$
+$Revision$
+
+The JavaScript windows features pane.
+-->
+
+<!DOCTYPE overlay [
+<!ENTITY % jsoptionsDTD SYSTEM "chrome://jsoptions/locale/jsoptions.dtd">
+%jsoptionsDTD;
+]>
+
+<overlay id="WindowsPaneOverlay"
+         xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+
+  <prefpane id="paneWindows">
+    <preferences>
+      <preference id="dom.disable_window_open_feature.status"      name="dom.disable_window_open_feature.status"
+          inverted="true" type="bool"/>
+      <preference id="dom.disable_window_open_feature.menubar"     name="dom.disable_window_open_feature.menubar"
+          inverted="true" type="bool"/>
+      <preference id="dom.disable_window_open_feature.toolbar"     name="dom.disable_window_open_feature.toolbar"
+          inverted="true" type="bool"/>
+      <preference id="dom.disable_window_open_feature.location"    name="dom.disable_window_open_feature.location"
+          inverted="true" type="bool"/>
+      <preference id="dom.disable_window_open_feature.scrollbars"  name="dom.disable_window_open_feature.scrollbars"
+          inverted="true" type="bool"/>
+    </preferences>
+    
+    <groupbox id="groupWindowOpenSettings" align="start">
+      <caption label="&groupWindowOpenSettings.title;"/>
+      
+      <checkbox id="windowOpenMenubar" label="&windowOpenMenubar.label;"
+                      preference="dom.disable_window_open_feature.menubar"/>
+      <checkbox id="windowOpenToolbar" label="&windowOpenToolbar.label;"
+                      preference="dom.disable_window_open_feature.toolbar"/>
+      <checkbox id="windowOpenLocation" label="&windowOpenLocation.label;"
+                      preference="dom.disable_window_open_feature.location"/>
+      <checkbox id="windowOpenScrollbars" label="&windowOpenScrollbars.label;"
+                      preference="dom.disable_window_open_feature.scrollbars"/>
+      <checkbox id="windowOpenStatus" label="&windowOpenStatus.label;"
+                      preference="dom.disable_window_open_feature.status"/>
+
+    </groupbox>
+
+  </prefpane>
+
+</overlay>
