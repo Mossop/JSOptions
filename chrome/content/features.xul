@@ -10,8 +10,8 @@ The JavaScript features pane.
 -->
 
 <!DOCTYPE overlay [
-<!ENTITY % jsoptionsDTD SYSTEM "chrome://jsoptions/locale/jsoptions.dtd">
-%jsoptionsDTD;
+<!ENTITY % featuresDTD SYSTEM "chrome://jsoptions/locale/features.dtd">
+%featuresDTD;
 ]>
 
 <overlay id="FeaturesPaneOverlay"
@@ -33,23 +33,24 @@ The JavaScript features pane.
           type="bool"/>
     </preferences>
     
-    <groupbox id="groupJavascript" align="start">
-      <caption label="&groupJavascript.title;"/>
-      
+    <description>&paneFeatures.description;</description>
+    
+    <vbox align="start">
+    
       <checkbox id="disableMoveResize" label="&disableMoveResize.label;"
-                      preference="dom.disable_window_move_resize"/>
+                    preference="dom.disable_window_move_resize"/>
       <checkbox id="disableFlip" label="&disableFlip.label;"
-                      preference="dom.disable_window_flip"/>
+                    preference="dom.disable_window_flip"/>
       <checkbox id="disableContextMenu" label="&disableContextMenu.label;"
-                      preference="dom.event.contextmenu.enabled"/>
+                    preference="dom.event.contextmenu.enabled"/>
       <checkbox id="disableStatusChange" label="&disableStatusChange.label;"
-                      preference="dom.disable_window_status_change"/>
+                    preference="dom.disable_window_status_change"/>
       <checkbox id="disableChangeImage" label="&disableChangeImage.label;"
-                      preference="dom.disable_image_src_set"/>
+                    preference="dom.disable_image_src_set"/>
       <checkbox id="enableWindowClose" label="&enableWindowClose.label;"
-                      preference="dom.allow_scripts_to_close_windows"/>
+                    preference="dom.allow_scripts_to_close_windows"/>
 
-    </groupbox>
+    </vbox>
 
   </prefpane>
 

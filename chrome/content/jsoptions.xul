@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+
+<?xml-stylesheet href="chrome://global/skin/global.css"?>
+<?xml-stylesheet href="chrome://jsoptions/skin/jsoptions.css"?>
+
+<!DOCTYPE prefwindow [
+<!ENTITY % jsoptionsDTD SYSTEM "chrome://jsoptions/locale/jsoptions.dtd">
+%jsoptionsDTD;
+]>
+
+<prefwindow type="child"
+            id="JavascriptOptions"
+            title="&JavascriptOptions.title;"
+            xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+  
+    <prefpane id="paneFeatures" label="&paneFeatures.title;"
+              src="chrome://jsoptions/content/features.xul"/>
+    <prefpane id="paneWindows" label="&paneWindows.title;"
+              src="chrome://jsoptions/content/windows.xul"/>
+    <prefpane id="panePopups" label="&panePopups.title;"
+              src="chrome://jsoptions/content/popups.xul"/>
+
+</prefwindow>

@@ -7,20 +7,30 @@
  * Styling removes the JavaScript options from the content pane and sets up the icon on the JavaScript pane.
  */
 
-#BrowserPreferences radio[pane=paneJSOptions] {
+#JavascriptOptions radio[pane=paneFeatures] {
   	list-style-image: url("chrome://jsoptions/skin/jsoptions.png");
 	-moz-image-region: rect(0px, 32px, 32px, 0px);
 }
 
-#BrowserPreferences radio[pane=paneJSOptions]:hover, #BrowserPreferences radio[pane=paneJSOptions][selected="true"]  {
+#JavascriptOptions radio[pane=paneFeatures]:hover, #JavascriptOptions radio[pane=paneFeatures][selected="true"]  {
   	list-style-image: url("chrome://jsoptions/skin/jsoptions.png");
 	-moz-image-region: rect(32px, 32px, 64px, 0px);
 }
 
-checkbox#enableJavaScript {
-	display: none;
+#JavascriptOptions {
+	padding: 0;
+	height: 40em;
+	width: 32em;
 }
 
-checkbox#disableAnnoyances {
-	display: none;
+#JavascriptOptions hbox.paneDeckContainer {
+	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+#JavascriptOptions hbox.prefWindow-dlgbuttons {
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-bottom: 10px;
 }

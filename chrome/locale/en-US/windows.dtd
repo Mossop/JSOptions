@@ -1,0 +1,13 @@
+<!ENTITY paneWindows.description	"Scripts opening new windows will be able to do the following:">
+
+<!ENTITY windowOpenMenubar.label	"Hide the menubar">
+<!ENTITY windowOpenToolbar.label	"Hide the toolbar">
+<!ENTITY windowOpenLocation.label	"Hide the location bar">
+<!ENTITY windowOpenScrollbars.label	"Hide the scrollbars">
+<!ENTITY windowOpenStatus.label		"Hide the status bar">
+<!ENTITY windowOpenClose.label		"Close">
+<!ENTITY windowOpenDirectories.label	"Hide the bookmarks toolbar">
+<!ENTITY windowOpenMinimizable.label	"Minimizable">
+<!ENTITY windowOpenResizable.label	"Make the window unresizable">
+<!ENTITY windowOpenTitlebar.label	"Hide the titlebar">
+<!ENTITY windowOpenPersonalbar.label	"Hide the bookmarks toolbar">

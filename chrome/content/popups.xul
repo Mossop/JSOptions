@@ -10,14 +10,20 @@ The JavaScript popups pane.
 -->
 
 <!DOCTYPE overlay [
-<!ENTITY % jsoptionsDTD SYSTEM "chrome://jsoptions/locale/jsoptions.dtd">
-%jsoptionsDTD;
+<!ENTITY % popupsDTD SYSTEM "chrome://jsoptions/locale/popups.dtd">
+%popupsDTD;
 ]>
 
 <overlay id="PopupsPaneOverlay"
          xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
 
   <prefpane id="panePopups">
+
+    <description>&panePopups.description;</description>
+    
+    <vbox align="start">
+    </vbox>
+    
   </prefpane>
 
 </overlay>

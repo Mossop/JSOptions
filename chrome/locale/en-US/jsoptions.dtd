@@ -1,20 +1,5 @@
-<!ENTITY paneJSOptions.title		"JavaScript">
+<!ENTITY JavascriptOptions.title	"JavaScript Options">
 
-<!ENTITY enableJScript.label		"Enable JavaScript">
-
-<!ENTITY groupWindowOpenSettings.title	"Allowed features for JavaScript opened windows">
-
-<!ENTITY windowOpenMenubar.label	"Hiding the menubar">
-<!ENTITY windowOpenToolbar.label	"Hiding the toolbar">
-<!ENTITY windowOpenLocation.label	"Hiding the location bar">
-<!ENTITY windowOpenScrollbars.label	"Hiding the scrollbars">
-<!ENTITY windowOpenStatus.label		"Hiding the status bar">
-
-<!ENTITY groupJavascript.title		"Advanced JavaScript options">
-
-<!ENTITY disableMoveResize.label	"Allow scripts to move or resize existing windows">
-<!ENTITY disableStatusChange.label	"Allow scripts to change the status bar text">
-<!ENTITY disableFlip.label		"Allow scripts to raise or lower windows">
-<!ENTITY disableContextMenu.label	"Allow scripts to disable or replace context menus">
-<!ENTITY disableChangeImage.label	"Allow scripts to change images">
-<!ENTITY enableWindowClose.label	"Allow scripts to close windows">
+<!ENTITY paneFeatures.title		"Features">
+<!ENTITY paneWindows.title		"Windows">
+<!ENTITY panePopups.title		"Popups">

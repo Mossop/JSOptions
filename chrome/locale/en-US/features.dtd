@@ -1,0 +1,8 @@
+<!ENTITY paneFeatures.description	"Scripts will be allowed to do the following:">
+
+<!ENTITY disableMoveResize.label	"Move or resize existing windows">
+<!ENTITY disableStatusChange.label	"Change the status bar text">
+<!ENTITY disableFlip.label		"Raise or lower windows">
+<!ENTITY disableContextMenu.label	"Disable or replace context menus">
+<!ENTITY disableChangeImage.label	"Change images">
+<!ENTITY enableWindowClose.label	"Close windows">

@@ -10,8 +10,8 @@ The JavaScript windows features pane.
 -->
 
 <!DOCTYPE overlay [
-<!ENTITY % jsoptionsDTD SYSTEM "chrome://jsoptions/locale/jsoptions.dtd">
-%jsoptionsDTD;
+<!ENTITY % windowsDTD SYSTEM "chrome://jsoptions/locale/windows.dtd">
+%windowsDTD;
 ]>
 
 <overlay id="WindowsPaneOverlay"
@@ -29,23 +29,48 @@ The JavaScript windows features pane.
           inverted="true" type="bool"/>
       <preference id="dom.disable_window_open_feature.scrollbars"  name="dom.disable_window_open_feature.scrollbars"
           inverted="true" type="bool"/>
+      <preference id="dom.disable_window_open_feature.close"       name="dom.disable_window_open_feature.close"
+          inverted="true" type="bool"/>
+      <preference id="dom.disable_window_open_feature.directories" name="dom.disable_window_open_feature.directories"
+          inverted="true" type="bool"/>
+      <preference id="dom.disable_window_open_feature.minimizable" name="dom.disable_window_open_feature.minimizable"
+          inverted="true" type="bool"/>
+      <preference id="dom.disable_window_open_feature.resizable"   name="dom.disable_window_open_feature.resizable"
+          inverted="true" type="bool"/>
+      <preference id="dom.disable_window_open_feature.titlebar"    name="dom.disable_window_open_feature.titlebar"
+          inverted="true" type="bool"/>
+      <preference id="dom.disable_window_open_feature.personalbar" name="dom.disable_window_open_feature.personalbar"
+          inverted="true" type="bool"/>
     </preferences>
     
-    <groupbox id="groupWindowOpenSettings" align="start">
-      <caption label="&groupWindowOpenSettings.title;"/>
-      
+    <description>&paneWindows.description;</description>
+    
+    <vbox align="start">
+    
       <checkbox id="windowOpenMenubar" label="&windowOpenMenubar.label;"
-                      preference="dom.disable_window_open_feature.menubar"/>
+                    preference="dom.disable_window_open_feature.menubar"/>
       <checkbox id="windowOpenToolbar" label="&windowOpenToolbar.label;"
-                      preference="dom.disable_window_open_feature.toolbar"/>
+                    preference="dom.disable_window_open_feature.toolbar"/>
       <checkbox id="windowOpenLocation" label="&windowOpenLocation.label;"
-                      preference="dom.disable_window_open_feature.location"/>
+                    preference="dom.disable_window_open_feature.location"/>
       <checkbox id="windowOpenScrollbars" label="&windowOpenScrollbars.label;"
-                      preference="dom.disable_window_open_feature.scrollbars"/>
+                    preference="dom.disable_window_open_feature.scrollbars"/>
+      <checkbox id="windowOpenClose" label="&windowOpenClose.label;"
+                    preference="dom.disable_window_open_feature.close"/>
+      <checkbox id="windowOpenDirectories" label="&windowOpenDirectories.label;"
+                    preference="dom.disable_window_open_feature.directories"/>
+      <checkbox id="windowOpenMinimizable" label="&windowOpenMinimizable.label;"
+                    preference="dom.disable_window_open_feature.minimizable"/>
+      <checkbox id="windowOpenResizable" label="&windowOpenResizable.label;"
+                    preference="dom.disable_window_open_feature.resizable"/>
+      <checkbox id="windowOpenTitlebar" label="&windowOpenTitlebar.label;"
+                    preference="dom.disable_window_open_feature.titlebar"/>
+      <checkbox id="windowOpenPersonalbar" label="&windowOpenPersonalbar.label;"
+                    preference="dom.disable_window_open_feature.personalbar"/>
       <checkbox id="windowOpenStatus" label="&windowOpenStatus.label;"
-                      preference="dom.disable_window_open_feature.status"/>
+                    preference="dom.disable_window_open_feature.status"/>
 
-    </groupbox>
+    </vbox>
 
   </prefpane>
 
