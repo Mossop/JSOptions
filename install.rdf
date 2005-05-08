@@ -5,7 +5,7 @@
 
   <Description about="urn:mozilla:install-manifest">
     <em:id>{cdbbb3f6-a50e-4b20-a154-5fcbb3bbf43d}</em:id>
-    <em:version>1.0</em:version>
+    <em:version>1.1</em:version>
     
     <!-- Target Application this extension can install into, 
         with minimum and maximum supported versions. --> 
@@ -22,7 +22,7 @@
     <em:description>Provides advanced JavaScript options in the new preferences window.</em:description>
     <em:creator>Dave Townsend</em:creator>
     <em:homepageURL>http://www.blueprintit.co.uk/~dave/web/firefox/jsoptions/index.html</em:homepageURL>
-    <em:updateURL>http://www.blueprintit.co.uk/~dave/web/firefox/jsoptions/jsoptions.rdf</em:updateURL>
+    <em:updateURL>http://www.blueprintit.co.uk/~dave/web/firefox/update.rdf?guid=%ITEM_ID%</em:updateURL>
     <em:iconURL>chrome://jsoptions/skin/icon.png</em:iconURL>
     
   </Description>      

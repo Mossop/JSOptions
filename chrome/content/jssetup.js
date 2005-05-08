@@ -10,7 +10,7 @@ var JSOptions =
 {
   showJSOptions: function()
   {
-    openDialog("chrome://jsoptions/content/jsoptions.xul", "JavaScript Options", "chrome,titlebar,toolbar,centerscreen,modal");
+    document.documentElement.openWindow("JavascriptOptions:Options", "chrome://jsoptions/content/jsoptions.xul", "", null);
     return false;
   },
 

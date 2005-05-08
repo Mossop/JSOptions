@@ -9,7 +9,7 @@
 ]>
 
 <prefwindow type="child"
-            id="JavascriptOptions"
+            id="JavascriptOptions" windowtype="JavascriptOptions:Options"
             title="&JavascriptOptions.title;"
             xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
   
