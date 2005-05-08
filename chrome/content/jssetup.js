@@ -10,7 +10,7 @@ var JSOptions =
 {
   showJSOptions: function()
   {
-    document.documentElement.openWindow("JavascriptOptions:Options", "chrome://jsoptions/content/jsoptions.xul", "", null);
+    document.documentElement.openWindow("JavascriptOptions:Options", "chrome://jsoptions/content/jsoptions.xul", "chrome,titlebar,toolbar", null);
     return false;
   },
 
