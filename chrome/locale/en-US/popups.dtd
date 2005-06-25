@@ -6,9 +6,9 @@ these settings are fine as they are and should be left well alone.">
 <!ENTITY eventsGroup.description	"The following events may open popups. Generally
 these settings are fine as they are and should be left well alone.">
 
-<!ENTITY changeEvent.label		"Change">
-<!ENTITY clickEvent.label		"Click">
-<!ENTITY dblclickEvent.label		"Double click">
+<!ENTITY changeEvent.label		"Change (applies to most form items)">
+<!ENTITY clickEvent.label		"Mouse button click">
+<!ENTITY dblclickEvent.label		"Mouse button double click">
 <!ENTITY mousedownEvent.label		"Mouse button press">
 <!ENTITY mouseupEvent.label		"Mouse button release">
 <!ENTITY resetEvent.label		"Form reset">
