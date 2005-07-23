@@ -61,7 +61,8 @@ The JavaScript windows features pane.
                     preference="dom.disable_window_open_feature.close"/> -->
       <checkbox id="windowOpenDirectories" label="&windowOpenDirectories.label;"
                     preference="dom.disable_window_open_feature.directories"
-                    onpreferencewrite="gPaneWindows.writeDirectories();"/>
+                    onpreferencewrite="gPaneWindows.writeDirectories();"
+                    onsynctopreference="gPaneWindows.writeDirectories();"/>
       <!-- <checkbox id="windowOpenMinimizable" label="&windowOpenMinimizable.label;"
                     preference="dom.disable_window_open_feature.minimizable"/> -->
       <checkbox id="windowOpenResizable" label="&windowOpenResizable.label;"

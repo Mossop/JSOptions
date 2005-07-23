@@ -45,37 +45,51 @@ The JavaScript popups pane.
       <checkbox id="changeEvent" label="&changeEvent.label;"
         preference="dom.popup_allowed_events"
         onpreferenceread="return gPanePopups.readEvent('change');"
-        onpreferencewrite="return gPanePopups.writeEvents();"/>
+        onpreferencewrite="return gPanePopups.writeEvents();"
+        onsyncfrompreference="return gPanePopups.readEvent('change');"
+        onsynctopreference="return gPanePopups.writeEvents();"/>
 
       <checkbox id="clickEvent" label="&clickEvent.label;"
         preference="dom.popup_allowed_events"
         onpreferenceread="return gPanePopups.readEvent('click');"
-        onpreferencewrite="return gPanePopups.writeEvents();"/>
+        onpreferencewrite="return gPanePopups.writeEvents();"
+        onsyncfrompreference="return gPanePopups.readEvent('click');"
+        onsynctopreference="return gPanePopups.writeEvents();"/>
 
       <checkbox id="dblclickEvent" label="&dblclickEvent.label;"
         preference="dom.popup_allowed_events"
         onpreferenceread="return gPanePopups.readEvent('dblclick');"
-        onpreferencewrite="return gPanePopups.writeEvents();"/>
+        onpreferencewrite="return gPanePopups.writeEvents();"
+        onsyncfrompreference="return gPanePopups.readEvent('dblclick');"
+        onsynctopreference="return gPanePopups.writeEvents();"/>
 
       <checkbox id="mousedownEvent" label="&mousedownEvent.label;"
         preference="dom.popup_allowed_events"
         onpreferenceread="return gPanePopups.readEvent('mousedown');"
-        onpreferencewrite="return gPanePopups.writeEvents();"/>
+        onpreferencewrite="return gPanePopups.writeEvents();"
+        onsyncfrompreference="return gPanePopups.readEvent('mousedown');"
+        onsynctopreference="return gPanePopups.writeEvents();"/>
 
       <checkbox id="mouseupEvent" label="&mouseupEvent.label;"
         preference="dom.popup_allowed_events"
         onpreferenceread="return gPanePopups.readEvent('mouseup');"
-        onpreferencewrite="return gPanePopups.writeEvents();"/>
+        onpreferencewrite="return gPanePopups.writeEvents();"
+        onsyncfrompreference="return gPanePopups.readEvent('mouseup');"
+        onsynctopreference="return gPanePopups.writeEvents();"/>
 
       <checkbox id="resetEvent" label="&resetEvent.label;"
         preference="dom.popup_allowed_events"
         onpreferenceread="return gPanePopups.readEvent('reset');"
-        onpreferencewrite="return gPanePopups.writeEvents();"/>
+        onpreferencewrite="return gPanePopups.writeEvents();"
+        onsyncfrompreference="return gPanePopups.readEvent('reset');"
+        onsynctopreference="return gPanePopups.writeEvents();"/>
 
       <checkbox id="submitEvent" label="&submitEvent.label;"
         preference="dom.popup_allowed_events"
         onpreferenceread="return gPanePopups.readEvent('submit');"
-        onpreferencewrite="return gPanePopups.writeEvents();"/>
+        onpreferencewrite="return gPanePopups.writeEvents();"
+        onsyncfrompreference="return gPanePopups.readEvent('submit');"
+        onsynctopreference="return gPanePopups.writeEvents();"/>
 
     </vbox>
     
