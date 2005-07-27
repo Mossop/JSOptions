@@ -1,0 +1,8 @@
+<!ENTITY paneFeatures.description	"Gli script hanno il permesso di:">
+
+<!ENTITY disableMoveResize.label	        "Muovere o ridimensionare finestre">
+<!ENTITY disableStatusChange.label	"Modificare il testo nella barra di stato">
+<!ENTITY disableFlip.label		                "Ingrandire o ridurre ad icona finestre">
+<!ENTITY disableContextMenu.label	"Disattivare o sostituire i menu contestuali">
+<!ENTITY disableChangeImage.label	"Cambiare immagini">
+<!ENTITY enableWindowClose.label	"Chiudere finestre">

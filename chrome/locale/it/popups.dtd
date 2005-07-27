@@ -1,0 +1,15 @@
+<!ENTITY panePopups.description		"Indicare quando le finestre popup possono essere aperte attraverso script. 
+                                     Solitamente queste impostazioni sono permesse e dovrebbero essere lasciate.">
+
+<!ENTITY showLoadPopups.label		"Permettere apertura di finestre popup mentre si carica la pagina">
+
+<!ENTITY eventsGroup.description	"I seguenti eventi possono aprire finestre popup. 
+                                     Solitamente queste impostazioni sono permesse e dovrebbero essere lasciate.">
+
+<!ENTITY changeEvent.label		    "Cambia">
+<!ENTITY clickEvent.label		    "Clic">
+<!ENTITY dblclickEvent.label		"Doppio clic">
+<!ENTITY mousedownEvent.label	    "Pressione pulsante mouse">
+<!ENTITY mouseupEvent.label		    "Rilascio pulsante mouse">
+<!ENTITY resetEvent.label		    "Ripristina modulo">
+<!ENTITY submitEvent.label		    "Presenta modulo">

@@ -1,0 +1,13 @@
+<!ENTITY paneWindows.description	          "Gli script che aprono nuove finestre hanno il permesso di:">
+
+<!ENTITY windowOpenMenubar.label	          "Nascondere la barra del menu">
+<!ENTITY windowOpenToolbar.label	          "Nascondere la barra degli strumenti">
+<!ENTITY windowOpenLocation.label	          "Nascondere la barra degli indirizzi">
+<!ENTITY windowOpenScrollbars.label	          "Nascondere le barre scorrevoli">
+<!ENTITY windowOpenStatus.label		          "Nascondere la barra di stato">
+<!ENTITY windowOpenClose.label		          "Nascondere il pulsante di chiusura">
+<!ENTITY windowOpenDirectories.label	      "Nascondere il campo indirizzi">
+<!ENTITY windowOpenMinimizable.label	      "Nascondere il pulsante per ridurre ad icona">
+<!ENTITY windowOpenResizable.label	          "Rendere non ridimensionabile la finestra">
+<!ENTITY windowOpenTitlebar.label	          "Nascondere la barra del titolo">
+<!ENTITY windowOpenPersonalbar.label	      "Nascondere la barra dei Segnalibri">
