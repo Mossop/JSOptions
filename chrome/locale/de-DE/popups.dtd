@@ -1,0 +1,10 @@
+<!ENTITY panePopups.description "Sie können festlegen wann ein JavaScript ein Pop-Up-Fenster öffnen darf. Im Allgemeinen sind die Voreinstellungen ausreichend und sollten nicht unnötig verändert werden.">
+<!ENTITY showLoadPopups.label "Erlaube das öffnen eines Pop-Up-Fensters beim öffnen der Seite">
+<!ENTITY eventsGroup.description "Bei den folgenden Ereignissen können möglicherweise Pop-Up-Fenster geöffnet werden. Im Allgemeinen sind die Voreinstellungen ausreichend und sollten nicht unnötig verändert werden.">
+<!ENTITY changeEvent.label "Bei Inhaltsänderungen (betrifft die meisten Formularelemente)">
+<!ENTITY clickEvent.label "Beim klicken mit der Maus">
+<!ENTITY dblclickEvent.label "Beim doppelklicken mit der Maus">
+<!ENTITY mousedownEvent.label "Beim drücken einer Maustaste">
+<!ENTITY mouseupEvent.label "Beim loslassen einer Maustaste">
+<!ENTITY resetEvent.label "Beim löschen des Formularinhalts">
+<!ENTITY submitEvent.label "Beim abschicken des Formulars">

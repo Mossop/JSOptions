@@ -1,0 +1,7 @@
+<!ENTITY paneFeatures.description "Scripts folgende Aktionen erlauben:">
+<!ENTITY disableMoveResize.label "Existierende Fenster verschieben oder deren Größe ändern">
+<!ENTITY disableStatusChange.label "Statuszeilentext ändern">
+<!ENTITY disableFlip.label "Fenster vor oder hinter andere Fenster legen">
+<!ENTITY disableContextMenu.label "Das Kontextmenü deaktivieren oder ersetzen">
+<!ENTITY disableChangeImage.label "Grafiken verändern">
+<!ENTITY enableWindowClose.label "Fenter schließen">

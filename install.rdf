@@ -5,7 +5,7 @@
 
   <Description about="urn:mozilla:install-manifest">
     <em:id>{cdbbb3f6-a50e-4b20-a154-5fcbb3bbf43d}</em:id>
-    <em:version>1.2</em:version>
+    <em:version>1.2.1</em:version>
     
     <!-- Target Application this extension can install into, 
         with minimum and maximum supported versions. --> 
@@ -21,6 +21,8 @@
     <em:name>JavaScript Options</em:name>
     <em:description>Provides advanced JavaScript options for Firefox.</em:description>
     <em:creator>Mossop</em:creator>
+    <em:contributor>Andrea &amp; Luana (Italian translation)</em:contributor>
+    <em:contributor>Andreas Grundler (German translation)</em:contributor>
     <em:homepageURL>http://www.blueprintit.co.uk/~dave/web/firefox/jsoptions/index.html</em:homepageURL>
     <em:optionsURL>chrome://jsoptions/content/jsoptions.xul</em:optionsURL>
     <em:updateURL>http://www.blueprintit.co.uk/~dave/web/firefox/update.rdf?guid=%ITEM_ID%&amp;version=%ITEM_VERSION%&amp;app=%APP_ID%&amp;appver=%APP_VERSION%</em:updateURL>

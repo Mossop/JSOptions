@@ -1,0 +1,12 @@
+<!ENTITY paneWindows.description "Scripts die neue Fenster öffnen ist folgendes erlaubt:">
+<!ENTITY windowOpenMenubar.label "Die Menüleiste ausblenden">
+<!ENTITY windowOpenToolbar.label "Die Werkzeugleiste ausblenden">
+<!ENTITY windowOpenLocation.label "Die Adressleiste ausblenden">
+<!ENTITY windowOpenScrollbars.label "Die Scrollbars ausblenden">
+<!ENTITY windowOpenStatus.label "Die Statusleiste ausblenden">
+<!ENTITY windowOpenClose.label "Den Schließenknopf ausblenden">
+<!ENTITY windowOpenDirectories.label "Die Lesezeichenleiste ausblenden">
+<!ENTITY windowOpenMinimizable.label "Den Minimierenknopf ausblenden">
+<!ENTITY windowOpenResizable.label "Die Größe des Fensters unveränderlich machen">
+<!ENTITY windowOpenTitlebar.label "Die Titelleiste ausblenden">
+<!ENTITY windowOpenPersonalbar.label "Die Lesezeichenleiste ausblenden">
