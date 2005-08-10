@@ -28,10 +28,19 @@ var JSOptions =
 
     var checkbox = document.getElementById("enableJavaScript");
     checkbox.addEventListener("CheckboxStateChange",JSOptions.toggleButton,false);
-    var row = checkbox.parentNode.parentNode;
-    var vbox = document.createElement("vbox");
-    row.appendChild(vbox);
-    var button = document.createElement("button");
+    var button = document.getElementById("advancedJSButton");
+    var vbox;
+    if (button)
+    {
+    	vbox = button.parentNode;
+    }
+    else
+    {
+	    var row = checkbox.parentNode.parentNode;
+	    vbox = document.createElement("vbox");
+	    row.appendChild(vbox);
+    }
+    button = document.createElement("button");
     button.id="advancedJSOptions";
     button.setAttribute("label",strBundle.getString("advancedJSOptions.label"));
     button.setAttribute("id","popupAdvancedJavascript");

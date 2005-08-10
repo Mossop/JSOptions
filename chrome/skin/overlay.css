@@ -10,3 +10,7 @@
 checkbox#disableAnnoyances {
 	display: none;
 }
+
+button#advancedJSButton {
+	display: none;
+}
