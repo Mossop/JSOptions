@@ -6,6 +6,7 @@
 			<fileset dir="${basedir}">
 				<include name="**/*"/>
 				<exclude name="components/*.idl"/>
+				<exclude name="*.xpi"/>
 				<exclude name="${ant.project.name}.xpi"/>
 				<exclude name="build.xml"/>
 				<exclude name=".*"/>
