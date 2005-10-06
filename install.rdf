@@ -23,9 +23,9 @@
     <em:creator>Mossop</em:creator>
     <em:contributor>Andrea &amp; Luana (Italian translation)</em:contributor>
     <em:contributor>Andreas Grundler (German translation)</em:contributor>
-    <em:homepageURL>http://www.blueprintit.co.uk/~dave/web/firefox/jsoptions/index.html</em:homepageURL>
+    <em:homepageURL>http://users.blueprintit.co.uk/~dave/web/firefox/jsoptions/index.html</em:homepageURL>
     <em:optionsURL>chrome://jsoptions/content/jsoptions.xul</em:optionsURL>
-    <em:updateURL>http://www.blueprintit.co.uk/~dave/web/firefox/update.rdf?guid=%ITEM_ID%&amp;version=%ITEM_VERSION%&amp;app=%APP_ID%&amp;appver=%APP_VERSION%</em:updateURL>
+    <em:updateURL>http://users.blueprintit.co.uk/~dave/web/firefox/update.rdf?guid=%ITEM_ID%&amp;version=%ITEM_VERSION%&amp;app=%APP_ID%&amp;appver=%APP_VERSION%</em:updateURL>
     <em:iconURL>chrome://jsoptions/skin/icon.png</em:iconURL>
     
   </Description>      
