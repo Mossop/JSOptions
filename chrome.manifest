@@ -3,5 +3,6 @@ skin	jsoptions	classic/1.0	file:chrome/skin/
 locale	jsoptions	en-US	file:chrome/locale/en-US/
 locale	jsoptions	it-IT	file:chrome/locale/it-IT/
 locale	jsoptions	de-DE	file:chrome/locale/de-DE/
+locale	jsoptions	fr	file:chrome/locale/fr/
 overlay	chrome://browser/content/preferences/preferences.xul	chrome://jsoptions/content/prefoverlay.xul
 overlay	chrome://jsoptions/content/jsoptions.xul	chrome://jsoptions/content/prefrevert.xul

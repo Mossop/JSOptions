@@ -1,0 +1,15 @@
+<!ENTITY panePopups.description		"Personnalisez quand les popups peuvent être lancés par des scripts. Généralement,
+ces préférences sont bien comme elles sont et devraient être laissées telles quelles.">
+
+<!ENTITY showLoadPopups.label		"Autoriser les popups au chargement de la page">
+
+<!ENTITY eventsGroup.description	"Les événements suivants peuvent ouvrir des popups. Généralement,
+ces préférences sont bien comme elles sont et devraient être laissées telles quelles.">
+
+<!ENTITY changeEvent.label		"Changement (s'applique à la plupart des éléments de formulaire)">
+<!ENTITY clickEvent.label		"Clic de la souris">
+<!ENTITY dblclickEvent.label		"Double-clic de la souris">
+<!ENTITY mousedownEvent.label		"Pression sur un bouton de la souris">
+<!ENTITY mouseupEvent.label		"Relâchement d'un bouton de la souris">
+<!ENTITY resetEvent.label		"Réinitialisation d'un formulaire">
+<!ENTITY submitEvent.label		"Soumission d'un formulaire">

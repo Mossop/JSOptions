@@ -1,0 +1,13 @@
+<!ENTITY paneWindows.description	"Les scripts ouvrant de nouvelles fenêtres pourront&#160;:">
+
+<!ENTITY windowOpenMenubar.label	"Cacher la barre de menus">
+<!ENTITY windowOpenToolbar.label	"Cacher la barre d'outils">
+<!ENTITY windowOpenLocation.label	"Cacher la barre d'adresses">
+<!ENTITY windowOpenScrollbars.label	"Cacher les barres de défilement">
+<!ENTITY windowOpenStatus.label	"Cacher la barre d'état">
+<!ENTITY windowOpenClose.label		"Cacher le bouton fermer">
+<!ENTITY windowOpenDirectories.label	"Cacher la barre personnelle">
+<!ENTITY windowOpenMinimizable.label	"Cacher le bouton minimiser">
+<!ENTITY windowOpenResizable.label	"Empêcher le redimensionnement de la fenêtre">
+<!ENTITY windowOpenTitlebar.label	"Cacher la barre de titre">
+<!ENTITY windowOpenPersonalbar.label	"Cacher la barre personnelle">
