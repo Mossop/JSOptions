@@ -1,0 +1,15 @@
+<!ENTITY panePopups.description		"Verander alleen als er popups verschijnen dmv scripts. Over het
+algemeen zijn deze instellingen voldoende.">
+
+<!ENTITY showLoadPopups.label		"Sta popups toe tijdens het laden van pagina's.">
+
+<!ENTITY eventsGroup.description	"De volgende acties kunnen popups openen. Over
+het algemeen zijn deze instellingen voldoende.">
+
+<!ENTITY changeEvent.label		"Verandering (in de meeste formulieren)">
+<!ENTITY clickEvent.label		"Muis knop klik">
+<!ENTITY dblclickEvent.label		"Muis knop dubbel klik">
+<!ENTITY mousedownEvent.label		"Muis knop indrukken">
+<!ENTITY mouseupEvent.label		"Muis knop loslaten">
+<!ENTITY resetEvent.label		"Formulier leegmaken">
+<!ENTITY submitEvent.label		"Formulier versturen">

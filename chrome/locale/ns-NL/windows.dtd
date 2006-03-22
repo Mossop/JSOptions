@@ -1,0 +1,13 @@
+<!ENTITY paneWindows.description	"Scripts die vensters openen mogen het volgende doen:">
+
+<!ENTITY windowOpenMenubar.label	"Menu's verbergen">
+<!ENTITY windowOpenToolbar.label	"Werkbalken verbergen">
+<!ENTITY windowOpenLocation.label	"Adresveld verbergen">
+<!ENTITY windowOpenScrollbars.label	"Scrollbalk verbergen">
+<!ENTITY windowOpenStatus.label		"Statusbalk verbergen">
+<!ENTITY windowOpenClose.label		"Sluit knop verbergen">
+<!ENTITY windowOpenDirectories.label	"Favorieten verbergen">
+<!ENTITY windowOpenMinimizable.label	"Verklein knop verbergen">
+<!ENTITY windowOpenResizable.label	"Venster grote verstellen uitzetten">
+<!ENTITY windowOpenTitlebar.label	"Titelbalk verbergen">
+<!ENTITY windowOpenPersonalbar.label	"Favorietenbalk verbergen">

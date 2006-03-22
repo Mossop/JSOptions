@@ -1,0 +1,8 @@
+<!ENTITY paneFeatures.description	"Scripts die vensters openen mogen het volgende doen:">
+
+<!ENTITY disableMoveResize.label	"Bestaande vensters verschuiven/vergroten">
+<!ENTITY disableStatusChange.label	"Statusbalk text aanpassen">
+<!ENTITY disableFlip.label		"Vensters naar voor-/achtergrond verschuiven">
+<!ENTITY disableContextMenu.label	"Context menu's vervangen/uitzetten">
+<!ENTITY disableChangeImage.label	"Afbeeldingen veranderen">
+<!ENTITY enableWindowClose.label	"Vensters afsluiten">

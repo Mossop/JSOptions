@@ -24,6 +24,7 @@
     <em:contributor>Andrea &amp; Luana (Italian translation)</em:contributor>
     <em:contributor>Andreas Grundler (German translation)</em:contributor>
     <em:contributor>Xavier Robin (French translation)</em:contributor>
+    <em:contributor>Daniel Crompton (Dutch translation)</em:contributor>
     <em:homepageURL>http://users.blueprintit.co.uk/~dave/web/firefox/jsoptions/index.html</em:homepageURL>
     <em:optionsURL>chrome://jsoptions/content/jsoptions.xul</em:optionsURL>
     <em:updateURL>http://users.blueprintit.co.uk/~dave/web/firefox/update.rdf?guid=%ITEM_ID%&amp;version=%ITEM_VERSION%&amp;app=%APP_ID%&amp;appver=%APP_VERSION%</em:updateURL>
