@@ -25,9 +25,9 @@
     <em:contributor>Andreas Grundler (German translation)</em:contributor>
     <em:contributor>Xavier Robin (French translation)</em:contributor>
     <em:contributor>Daniel Crompton (Dutch translation)</em:contributor>
-    <em:homepageURL>http://users.blueprintit.co.uk/~dave/web/firefox/jsoptions</em:homepageURL>
+    <em:homepageURL>http://www.oxymoronical.com/web/firefox/@name@</em:homepageURL>
     <em:optionsURL>chrome://jsoptions/content/jsoptions.xul</em:optionsURL>
-    <em:updateURL>http://users.blueprintit.co.uk/~dave/web/firefox/jsoptions/update.rdf</em:updateURL>
+    <em:updateURL>https://www.oxymoronical.com/web/firefox/@name@/update.rdf?version=%ITEM_VERSION%&amp;status=%ITEM_STATUS%&amp;app=%APP_ID%&amp;appversion=%APP_VERSION%&amp;os=%APP_OS%&amp;abi=%APP_ABI%</em:updateURL>
     <em:iconURL>chrome://jsoptions/skin/icon.png</em:iconURL>
     
   </Description>      
