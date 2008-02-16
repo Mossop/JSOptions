@@ -1,0 +1,9 @@
+content	jsoptions	${extension.chromebase}/content/
+skin	jsoptions	classic/1.0	${extension.chromebase}/skin/
+locale	jsoptions	en-US	${extension.chromebase}/locale/en-US/
+locale	jsoptions	it-IT	${extension.chromebase}/locale/it-IT/
+locale	jsoptions	de-DE	${extension.chromebase}/locale/de-DE/
+locale	jsoptions	nl-NL	${extension.chromebase}/locale/nl-NL/
+locale	jsoptions	fr	${extension.chromebase}/locale/fr/
+overlay	chrome://browser/content/preferences/preferences.xul	chrome://jsoptions/content/prefoverlay.xul
+overlay	chrome://jsoptions/content/jsoptions.xul	chrome://jsoptions/content/prefrevert.xul
